@@ -53,6 +53,6 @@ Adding a custom domain
 First confirm your heroku account by adding a credit card number to you profile.
 ```heroku domains:add www.example.com```
 
-Check on the status of your domain trainsfer by digging the name
+Check on the status of your domain transfer by digging the name
 ```$ dig example.com +nostats +nocomments +nocmd```
 You will see that the domain is routed to the heroko repo can take several hours depending on the settings
