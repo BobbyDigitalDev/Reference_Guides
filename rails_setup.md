@@ -7,7 +7,7 @@ $ rails new myapp --database=postgresql
 Run the ```$ rake db:create``` command to create an empty database in which you will be creating tables to hold your data
 
 ####Creating a controller with view templates
-```$ generate controller addresses index```
+```$ rails g controller addresses index```
 Generates a new controller with the name "addresses" and a view named index.html.erb
 Controllers are plural
 
