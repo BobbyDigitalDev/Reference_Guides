@@ -19,3 +19,7 @@ Controllers are plural
 ```$ rails g model user email:string age:integer```
 Generates a model with a table named "user" that has 2 columns, email and age. Email is a string data type which is a short group of text and age is an integer.
 Models are singular
+
+#### Starting a rails app from a different port
+```rails server -p 3001```
+starts rails on port 3001
